@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import './App.css'
 
 import AddElement from './components/addElement/AddElement';
 import Element from './components/Elment/Element';
