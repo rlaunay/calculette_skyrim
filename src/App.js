@@ -107,7 +107,7 @@ const App = () => {
 
       <div className="d-flex justify-content-between align-items-center">
         <h2 className="mt-3 mb-3" >Total : {totalPrixState}</h2>
-        <button className="btn btn-outline-danger" onClick={deleteAllElement}>Suppimer tous les articles</button>
+        <button className="btn btn-outline-danger" onClick={deleteAllElement}>Supprimer tous les articles</button>
       </div>
 
       <Input label="Arnaque (en %)" change={changeArnaqueHandler} valeur={arnaqueState} />
