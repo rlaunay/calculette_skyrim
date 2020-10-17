@@ -26,7 +26,7 @@ const App = () => {
   const changeQuantite = (event) => setQuantite(event.target.value);
 
   const [showCharmSate, setShowSate] = useState("");
-  const [typeState, setType] = useState();
+  const [typeState, setType] = useState('achat');
   const changeType = (event) => {
     if(event.target.value === 'vente') {
       setShowSate("disabled");
