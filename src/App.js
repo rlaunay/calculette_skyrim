@@ -11,10 +11,10 @@ const App = () => {
   const [totalPrixState, setTotal] = useState(0);
 
   const [compState, setComp] = useState(0);
-  const changeCompHandler = (event) => setComp(event.target.value);
+  const changeCompHandler = (event) => setComp(parseInt(event.target.value));
 
   const [arnaqueState, setArnaque] = useState(0);
-  const changeArnaqueHandler = (event) => setArnaque(event.target.value);
+  const changeArnaqueHandler = (event) => setArnaque(parseInt(event.target.value));
 
   const [prixState, setPrix] = useState(0);
   const changePrix = (event) => setPrix(event.target.value);
@@ -23,7 +23,7 @@ const App = () => {
   const changeArticleName = (event) => setArticleName(event.target.value);
 
   const [quantiteSate, setQuantite] = useState(1);
-  const changeQuantite = (event) => setQuantite(event.target.value);
+  const changeQuantite = (event) => setQuantite(parseInt(event.target.value));
 
   const [showCharmSate, setShowSate] = useState("");
   const [typeState, setType] = useState('achat');
